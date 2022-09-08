@@ -10,9 +10,13 @@ body{
 }
 
 header{
-    color: aliceblue;
+    color: white;
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
+    border-radius: .75em;
+    padding: 16px;
+    box-shadow: 1px 1px 3px aliceblue;
+    text-shadow: 1px 1px 3px darkgray;
 }
 
 a{
@@ -26,5 +30,21 @@ a:hover{
 
 article{
     background-image: linear-gradient(white, silver);
+    border-radius: .75em;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px silver;
 }
 
+img{
+    display: block;
+    height: 20%;
+    border: solid 1px lightseagreen;
+    border-radius: .75em;
+    margin-bottom: 10px;
+    box-shadow: 3px 1.5px 3px darkgray;
+}
+
+.subheading{
+    border-bottom: solid 2px black;
+}
